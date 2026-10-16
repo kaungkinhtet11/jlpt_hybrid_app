@@ -333,7 +333,7 @@ class SentenceCard extends StatelessWidget {
                 ),
                 rubyStyle: const TextStyle(
                   fontSize: 11,
-                  color: Colors.red,
+                  color: Colors.cyan,
                 ),
               )
             else
@@ -353,7 +353,7 @@ class SentenceCard extends StatelessWidget {
               meaning,
               style: const TextStyle(
                 fontSize: 16,
-                color: Colors.blue,
+                color: Colors.purple,
               ),
             ),
           ],
@@ -362,7 +362,7 @@ class SentenceCard extends StatelessWidget {
     );
   }
 }
-
+//I changed color from blue to purple and red to cyan
 // ================================================================
 // QUESTION SCREEN
 // ================================================================
