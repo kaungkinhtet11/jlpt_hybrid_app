@@ -333,7 +333,7 @@ class SentenceCard extends StatelessWidget {
                 ),
                 rubyStyle: const TextStyle(
                   fontSize: 11,
-                  color: Colors.blue,
+                  color: Colors.green,
                 ),
               )
             else
@@ -353,7 +353,7 @@ class SentenceCard extends StatelessWidget {
               meaning,
               style: const TextStyle(
                 fontSize: 16,
-                color: Colors.grey,
+                color: Colors.yellow,
               ),
             ),
           ],
