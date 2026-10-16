@@ -1,0 +1,38 @@
+
+name: jlpt_offline
+description: Offline JLPT Japanese study application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # SQLite
+  sqflite: ^2.3.3+1
+
+  # File/path utilities
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+  # Supabase
+  supabase_flutter: ^2.5.6
+
+  # Japanese Ruby/Furigana display
+  flutter_ruby_text: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
