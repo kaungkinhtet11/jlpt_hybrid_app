@@ -95,6 +95,8 @@ class HomeScreen extends StatelessWidget {
             },
           ),
           _MenuCard(
+            title: 'Mon dai',
+            subtitle: 'Practice JLPT questions',
             title: 'Questions',
             subtitle: 'Practice JLPT Questions',
             icon: Icons.quiz,
