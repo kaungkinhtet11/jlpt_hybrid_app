@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'JLPT Offline',
+      title: 'JLPT Japanese App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
@@ -83,7 +83,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           _MenuCard(
             title: 'Sentences',
-            subtitle: 'Study Japanese sentences',
+            subtitle: 'Study Japanese Sentences',
             icon: Icons.menu_book,
             onTap: () {
               Navigator.push(
@@ -97,6 +97,8 @@ class HomeScreen extends StatelessWidget {
           _MenuCard(
             title: 'Mon dai',
             subtitle: 'Practice JLPT questions',
+            title: 'Questions',
+            subtitle: 'Practice JLPT Questions',
             icon: Icons.quiz,
             onTap: () {
               Navigator.push(
@@ -109,7 +111,7 @@ class HomeScreen extends StatelessWidget {
           ),
           _MenuCard(
             title: 'Kanji',
-            subtitle: 'Study JLPT kanji',
+            subtitle: 'Study JLPT Kanji',
             icon: Icons.translate,
             onTap: () {
               Navigator.push(
